@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="../css/csspage.css">
+<body>
+<!--ONCLICK IS AN EVENT and on() is a function which is called when
+the user hits click button on() is written in javascript
+<img src="../img/v1.jpg" id="i1">-->
+
+<!--
+<h1 id="h1">My header</h1>
+<p id="p"></p>
+
+<h1>Addition of 2 numbers</h1> 
+<p id="p1" class="demo">2</p>
+<h1>subtraction of 2 numbers</h1> 
+<p id="p1" class="demo">3</p>
+<h1>Multiplication of 2 numbers</h1> 
+<p id="p1" class="demo">4</p>
+<p class="p1">txt1</p>
+<h1 class="p1">heading</h1>
+<div>
+	<p>tx2</p>
+	<p class="p1">txt1</p>
+	<h1 id="p1">heading</h1>
+	<h2 id="p1">heading2</h2>
+</div>
+<div>
+	<p>tx2</p>
+	<p class="p1">txt1</p>
+	<p id="p3">txt4</p>
+	<p id="p2">txt3</p>
+	<h2 class="h">heading2</h2>
+	<h1 class="h">heading</h1>
+</div>-->
+<div id="dv">
+<h1 id="head1">heading1<strong>strong header</strong></h1>
+<h1 id="head2" class="c2 c1 c3">heading2</h1>
+<h1 id="h">sree</h1>
+<p id="d">dunkin donuts</p>
+</div>
+<div id="dv1">
+	<p id="d1">nike</p>
+	<ol id="o"></ol>
+</div>
+<center>
+	<button onclick="newon()">New window</button>
+	<button onclick="newco()">close window</button>
+	<a href="http://www.facebook.com" target="newwindow">facebook</a>
+</center>
+<button onclick="on()" id="buton">CLICK</button> 
+<!--<button onclick="clearInterval(v1)">clear</button> 
+<button onclick="tout=setTimeout(on,2000)">CLICK</button>
+<button onclick="clearTimeout(tout)" >CLICK stop</button>-->
+<script type="text/javascript" src="../jss/index.js">
+</script>
+<script>
+	var ve1=new XMLHttpRequest();
+    ve1.onreadystatechange=function(){
+	if((this.readyState==4) && (this.status==200)){
+		var v2=ve1.responseText();
+		console.log(ve1.responseText());
+	}
+};
+ve1.open("GET","a.json",true);
+ve1.send;
+</script>
+</body>
+</html>

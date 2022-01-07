@@ -1,0 +1,20 @@
+{
+    "a":[
+        {
+            "name":"Dev",
+            "age":30,
+            "gender":"male"
+        },
+        {
+            "name":"sree",
+            "age":26,
+            "gender":"female"
+        }, 
+        {
+            "name":"Abi",
+            "age":18,
+            "gender":"female"
+        }
+
+        ]
+}

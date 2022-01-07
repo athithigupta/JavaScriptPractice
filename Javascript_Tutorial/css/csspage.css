@@ -1,0 +1,23 @@
+strong{
+    visibility:hidden;
+}
+.c1{
+    color:rgb(73, 105, 209);
+}
+.c2{
+    background-color :plum;
+}
+.c3{
+    text-align: center;
+}
+.c4{
+    background-color:rgb(109, 226, 99);
+}
+div{
+    background-color:rgb(109, 226, 99);
+    text-align: center;
+    height: 300px;
+    width: 500 px;
+    float: left;
+   margin-right: 10px;
+}
